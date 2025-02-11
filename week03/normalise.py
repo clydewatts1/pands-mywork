@@ -1,0 +1,5 @@
+raw = input("Enter a string: ")
+normalised = raw.strip().lower()
+length = len(normalised)
+print(f"That string normalised is: {normalised}")
+print(f"The length of the normalised string is: {length}")
