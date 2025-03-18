@@ -6,6 +6,7 @@ number_of_entries = 10
 # setup seed
 np.random.seed(42)
 salaries = np.random.randint(min_salary,max_salary,number_of_entries)
+ages = np.random.randint(21,65,number_of_entries)
 
 print(salaries)
 
@@ -17,5 +18,5 @@ print(salaries_plus)
 salaries_plus5 = salaries * 1.05
 print(salaries_plus5)
 
-plt.hist(salaries, bins=100, color='blue')
+#plt.hist(salaries, bins=100, color='blue')
 plt.show()
